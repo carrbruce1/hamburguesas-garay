@@ -2,7 +2,7 @@ const CONFIG = {
   nombre: "Hamburguesas Garay",
   whatsapp: "5491157025174",
 
-  categorias: ["Burger"],
+  categorias: ["Burger", "Extras", "Bebidas"],
 
   productos: [
 
@@ -56,6 +56,56 @@ const CONFIG = {
       descripcion: "2 Medallónes de carne + 3 Cheddar + Salsa Garay",
       imagen: "img/cheese.png"
     },
+
+
+    //Extras
+
+    {
+      nombre: "Papas Fritas",
+      precio: "$2.000",
+      categoria: "Extras",
+      descripcion: " ",
+    },
+
+    {
+      nombre: "Extra Medallón",
+      precio: "$2.500",
+      categoria: "Extras",
+      descripcion: " ",
+    },
+
+    {
+      nombre: "Otros Ingredientes",
+      precio: "$500",
+      categoria: "Extras",
+      descripcion: " ",
+    },
+
+    //Bebidas
+
+    {
+      nombre: "Lata Coca-Cola",
+      precio: "$2.000",
+      categoria: "Bebidas",
+      descripcion: " ",
+      imagen: "img/coca.png ",
+    },
+
+    {
+      nombre: "Lata Sprite",
+      precio: "$2.000",
+      categoria: "Bebidas",
+      descripcion: " ",
+      imagen: "img/sprite.png",
+    },
+
+    {
+      nombre: "Lata Brahma",
+      precio: "$3.000",
+      categoria: "Bebidas",
+      descripcion: " ",
+      imagen: "img/brahma.png",
+    }
 
   ]
 };
