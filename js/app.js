@@ -70,12 +70,7 @@ function renderProductos() {
                 ${p.precio}
               </span>
 
-              <a href="https://wa.me/${CONFIG.whatsapp}?text=Hola quiero ${p.nombre}"
-                 target="_blank"
-                 class="text-green-400 text-sm font-semibold">
-                Pedir
-              </a>
-
+          
             </div>
 
           </div>
