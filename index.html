@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title id="title">Hamburguesas Garay</title>
+
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="shortcut icon" href="/cliente-2/img/garay-trans.png" type="image/x-icon">
+  <!-- Fuente -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap" rel="stylesheet">
+
+  <!-- Iconos -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+  <style>
+    body {
+      font-family: 'Inter', sans-serif;
+    }
+  </style>
+</head>
+
+<body class="bg-[#0c0c0c] text-white">
+
+  <!-- HERO -->
+<!-- HERO -->
+<section class="relative h-[70vh] flex items-center overflow-hidden z-10">
+
+  <!-- FONDO -->
+  <div class="absolute inset-0 bg-[#0c0c0c] -z-10"></div>
+
+  <!-- GLOW -->
+  <div class="absolute right-0 top-0 w-1/2 h-full 
+              bg-orange-500/20 blur-3xl 
+              -z-10"></div>
+
+  <!-- CONTENIDO -->
+  <div class="relative z-10 max-w-6xl mx-auto px-6 w-full flex items-center justify-between gap-6">
+
+    <!-- TEXTO -->
+    <div class="max-w-md">
+
+      <h1 id="nombre" class="text-3xl md:text-5xl font-bold leading-tight">
+        Hamburguesas <span class="text-orange-500">Garay</span>
+      </h1>
+
+      <p class="mt-3 text-gray-400 text-sm md:text-lg">
+        Burgers reales. Sin vueltas.
+      </p>
+
+      <a id="btnHero"
+         target="_blank"
+         class="mt-5 inline-flex items-center gap-2 
+                border border-orange-500 text-orange-500
+                px-5 py-2 rounded-full text-sm
+                hover:bg-orange-500 hover:text-black
+                transition">
+
+        Pedir ahora
+        <i class="fa-solid fa-arrow-right text-xs"></i>
+
+      </a>
+
+    </div>
+
+    <!-- LOGO (SIEMPRE AL LADO) -->
+    <div class="flex-shrink-0">
+
+      <div class="relative">
+
+        <div class="absolute -inset-4 bg-orange-500/20 blur-2xl rounded-full"></div>
+
+        <img src="/cliente-2/img/garay-trans.png" 
+             class="relative w-32 md:w-60 object-contain 
+                    drop-shadow-[0_10px_30px_rgba(0,0,0,0.8)]">
+
+      </div>
+
+    </div>
+
+  </div>
+
+</section>
+
+<!-- MENÚ -->
+<section class="relative z-20 px-6 py-16">
+  <div id="menu" class="grid sm:grid-cols-2 gap-6"></div>
+</section>
+
+<!-- BOTÓN WHATSAPP (ARREGLADO) -->
+<a id="btnWsp"
+   target="_blank"
+   class="fixed bottom-6 right-6 z-50 w-14 h-14 flex items-center justify-center 
+          bg-green-500 text-white rounded-full shadow-lg 
+          hover:scale-110 transition">
+
+  <i class="fa-brands fa-whatsapp text-2xl"></i>
+
+</a>
+
+  <!-- MENÚ -->
+  <section class="relative z-20 px-6 py-16">
+    <div id="menu" class="grid sm:grid-cols-2 gap-6"></div>
+  </section>
+
+  <!-- WHATSAPP -->
+  <a id="btnWsp"
+     target="_blank"
+     class="fixed bottom-6 right-6 w-14 h-14 flex items-center justify-center 
+            bg-green-500 text-white rounded-full shadow-lg 
+            hover:scale-110 transition">
+
+    <i class="fa-brands fa-whatsapp text-2xl"></i>
+
+  </a>
+
+  <!-- SCRIPTS -->
+  <script src="js/config.js"></script>
+  <script src="js/app.js"></script>
+
+</body>
+</html>
