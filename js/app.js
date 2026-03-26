@@ -88,6 +88,7 @@ function init() {
 
   document.getElementById("btnHero").href = wsp;
   document.getElementById("btnWsp").href = wsp;
+  document.getElementById("Awsp").href = wsp
 
   renderProductos();
 }
