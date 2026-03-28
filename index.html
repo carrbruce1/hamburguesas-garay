@@ -25,8 +25,19 @@
 <!-- HERO -->
 <section class="relative min-h-[70vh] flex items-center justify-center text-center overflow-hidden z-10">
 
-  <div class="absolute inset-0 bg-[#0c0c0c] -z-10"></div>
+  <!-- IMAGEN FONDO -->
+  <div class="absolute inset-0 -z-10">
+    <img src="img/fondo-hero.jpg" 
+         class="w-full h-full object-cover">
+  </div>
+
+  <!-- OVERLAY OSCURO -->
+  <div class="absolute inset-0 bg-black/70 -z-10"></div>
+
+  <!-- GLOW NARANJA -->
   <div class="absolute w-[400px] h-[400px] bg-orange-500/20 blur-3xl rounded-full -z-10"></div>
+
+  <!-- CONTENIDO -->
   <div class="relative z-10 px-6 max-w-md">
 
     <!-- LOGO -->
@@ -40,7 +51,7 @@
 
     <div id="nombre" class="leading-none">
 
-      <p class="text-sm tracking-widest text-gray-400 uppercase">
+      <p class="text-sm tracking-widest text-gray-300 uppercase">
         Hamburguesas
       </p>
 
@@ -49,7 +60,8 @@
       </h1>
 
     </div>
-    <p class="mt-3 text-gray-400 text-sm md:text-lg">
+
+    <p class="mt-3 text-gray-300 text-sm md:text-lg">
       Burgers reales. Sin vueltas.
     </p>
 
